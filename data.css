@@ -1,0 +1,43 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    font-family: "ubuntu";
+}
+.container{
+    background-color: #ccc;
+    width: 85%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.container h2{
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 3px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.img-detail{
+    width: 250px;
+    border: 1px solid rebeccapurple;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px;
+}
+.img-detail img{
+    width: 100%;
+    height: 150px;
+}
+h5{
+    text-align: center;
+    letter-spacing: 2px;
+}
